@@ -1,0 +1,12 @@
+[project]
+name = "blockchain-indexer"
+version = "0.1.0"
+dependencies = [
+    "fastapi[standard]",
+    "pydantic[standard]",
+    "python-dotenv",
+    "python-bitcoinrpc>=1.0",
+    "psycopg2-binary",
+    "requests>=2.32.4",
+]
+requires-python = ">= 3.8"
